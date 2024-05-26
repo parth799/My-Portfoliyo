@@ -172,7 +172,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative gap-4">
+            <div className="mt-5 relative ">
     
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
@@ -194,7 +194,7 @@ export const BentoGridItem = ({
                 title={copied ? "Downlord CV" : "Downlord My CV"}
                 icon={<HiOutlineArrowDownTray />}
                 position="left"
-                otherClasses="!bg-[#161A31] "
+                otherClasses="!bg-[#161A31] sm:my-10px"
               />
               </div>
             </div>
