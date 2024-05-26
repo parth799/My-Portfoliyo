@@ -9,7 +9,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { HiOutlineArrowDownTray } from "react-icons/hi2";
 
-const RESUME_PDF_URL = "http://localhost:3016/MyResume.pdf";
+const RESUME_PDF_URL = "https://parth799.github.io/My-Portfoliyo/MyResume.pdf";
 
 export const BentoGrid = ({
   className,
@@ -172,7 +172,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 relative space-y-4">
     
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
@@ -194,7 +194,7 @@ export const BentoGridItem = ({
                 title={copied ? "Downlord CV" : "Downlord My CV"}
                 icon={<HiOutlineArrowDownTray />}
                 position="left"
-                otherClasses="!bg-[#161A31] "
+                otherClasses="!bg-[#161A31] sm:my-10px"
               />
               </div>
             </div>
