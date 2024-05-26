@@ -9,7 +9,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { HiOutlineArrowDownTray } from "react-icons/hi2";
 
-const RESUME_PDF_URL = "http://localhost:3016/MyResume.pdf";
+const RESUME_PDF_URL = "https://parth799.github.io/My-Portfoliyo/MyResume.pdf";
 
 export const BentoGrid = ({
   className,
