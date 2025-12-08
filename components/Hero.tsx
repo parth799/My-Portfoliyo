@@ -32,22 +32,27 @@ const Hero = ({}: Props) => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest  text-center text-blue-100 max-w-80">
-            {/* Dynamic Web Magic with Next.js */}
+          <p className="uppercase tracking-widest text-center text-blue-100 max-w-80">
+            Full-Stack Developer | 3+ Years Experience
           </p>
 
           <TextGenerateEffect
-            words="Parth's  Portfolio"
+            words="Parth Desai"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          Welcome to my development portfolio! Explore my projects, skills, and experience in creating innovative software solutions.
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+            Specialized in <span className="gradient-text font-semibold">JavaScript, TypeScript, Node.js, React.js, Next.js & Express.js</span>
+          </p>
+
+          <p className="text-center md:tracking-wider mb-6 text-sm md:text-base lg:text-lg max-w-2xl opacity-90">
+            Full Stack Software Developer with 3+ years of experience in designing, developing, and delivering scalable web applications. 
+            Skilled in both front-end and back-end development with a proven track record of leading cross-functional teams.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="Explore My Work"
               icon={<FaLocationArrow />}
               position="right"
             />

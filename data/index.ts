@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize collaboration and open communication with clients and teams",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Based in Surat, Gujarat - Flexible with time zones",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, NestJS, PostgreSQL, MongoDB",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Full Stack Developer with 3+ years of experience building scalable web applications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Passionate about solving complex problems and building user-friendly solutions",
+    description: "Continuous Learning & Innovation",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Want to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -165,31 +165,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Developer - Codehawk Technologies",
+    desc: "Leading cross-functional teams in developing scalable web applications using React.js, Next.js, Node.js, and TypeScript. Driving projects from concept to deployment with focus on performance optimization and user experience.",
+    className: "md:col-span-2",
+    thumbnail: "./exp4.svg",
+  },
+  {
+    id: 2,
+    title: "Full-stack Developer Intern - Codehawk Technologies",
+    desc: "Developed web-based platforms using React.js and Node.js, enhancing interactivity and performance. Collaborated with senior developers to implement best practices and modern development workflows.",
     className: "md:col-span-2",
     thumbnail: "./exp1.svg",
   },
   {
-    id: 2,
-    title: "Full-stack Developer",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp2.svg",
-  },
-  {
     id: 3,
-    title: "Freelance MERN Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance MERN Stack Developer",
+    desc: "Delivered full-stack web applications for clients using MongoDB, Express.js, React.js, and Node.js. Managed complete project lifecycle from requirements gathering to deployment and maintenance.",
+    className: "md:col-span-2",
     thumbnail: "./exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Bachelor of Computer Applications",
+    desc: "SDJ International College - Computer Science (July 2021 - July 2024). Built strong foundation in software development, algorithms, and modern web technologies.",
     className: "md:col-span-2",
-    thumbnail: "./exp4.svg",
+    thumbnail: "./exp2.svg",
   },
 ];
 
@@ -200,8 +200,8 @@ export const socialMedia = [
     img: "./git.svg",
   },
   {
-    id: 3,
-    link:"https://www.linkedin.com/in/parth-desai-4a6820257/",
+    id: 2,
+    link: "https://www.linkedin.com/in/parth-desai-99169266",
     img: "./link.svg",
   },
 ];

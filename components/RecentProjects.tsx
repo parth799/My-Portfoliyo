@@ -8,10 +8,10 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        A selection of{" "}
+        <span className="text-purple">professional projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
         {projects.map((item) => (
@@ -20,8 +20,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="Shorece Code"
-              href="https://github.com/parth799"
+              title="Source Code"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 align-middle">
                 <div
@@ -33,7 +33,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute align-middle rounded-lg"
+                  className="z-10 absolute align-middle rounded-lg hover-scale"
                 />
               </div>
 
@@ -50,13 +50,13 @@ const RecentProjects = () => {
               >
                 {item.des}
               </p>
-              <a href="https://github.com/parth799" target="_blank">
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center hover-glow"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
@@ -68,7 +68,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                   Visit Code
+                   View Project
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
