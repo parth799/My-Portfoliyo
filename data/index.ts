@@ -201,7 +201,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/parth-desai-99169266",
+    link: "https://www.linkedin.com/in/parth-desai-9b9169256/",
     img: "./link.svg",
   },
 ];
