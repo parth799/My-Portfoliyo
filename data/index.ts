@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Full Stack Developer with 3+ years of experience building scalable web applications",
+    title: "Full Stack Developer with 2+ years of experience building scalable web applications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
