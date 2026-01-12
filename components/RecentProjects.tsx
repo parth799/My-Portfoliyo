@@ -11,7 +11,7 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         A selection of{" "}
-        <span className="text-purple">professional projects</span>
+        <span className="text-slate-400">professional projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
         {projects.map((item) => (
@@ -67,10 +67,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-slate-400">
                    View Project
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#94a3b8" />
                 </div>
               </div>
               </a>

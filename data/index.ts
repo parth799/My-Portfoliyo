@@ -166,30 +166,30 @@ export const workExperience = [
   {
     id: 1,
     title: "Full Stack Developer - Codehawk Technologies",
-    desc: "Leading cross-functional teams in developing scalable web applications using React.js, Next.js, Node.js, and TypeScript. Driving projects from concept to deployment with focus on performance optimization and user experience.",
+    desc: "Leading development of scalable web applications using React.js, Next.js, Node.js, and TypeScript. Collaborating with cross-functional teams to deliver high-quality features and optimize application performance.",
     className: "md:col-span-2",
     thumbnail: "./exp4.svg",
   },
   {
     id: 2,
     title: "Full-stack Developer Intern - Codehawk Technologies",
-    desc: "Developed web-based platforms using React.js and Node.js, enhancing interactivity and performance. Collaborated with senior developers to implement best practices and modern development workflows.",
+    desc: "Developed web-based platforms using React.js and Node.js, enhancing interactivity and performance. Worked closely with senior developers to implement best practices and modern development workflows.",
     className: "md:col-span-2",
     thumbnail: "./exp1.svg",
   },
   {
     id: 3,
-    title: "Freelance MERN Stack Developer",
-    desc: "Delivered full-stack web applications for clients using MongoDB, Express.js, React.js, and Node.js. Managed complete project lifecycle from requirements gathering to deployment and maintenance.",
-    className: "md:col-span-2",
-    thumbnail: "./exp3.svg",
-  },
-  {
-    id: 4,
     title: "Bachelor of Computer Applications",
     desc: "SDJ International College - Computer Science (July 2021 - July 2024). Built strong foundation in software development, algorithms, and modern web technologies.",
     className: "md:col-span-2",
     thumbnail: "./exp2.svg",
+  },
+  {
+    id: 4,
+    title: "Additional Project Experience",
+    desc: "Contributed to various web application projects using MongoDB, Express.js, React.js, and Node.js. Gained experience across the full development lifecycle.",
+    className: "md:col-span-2",
+    thumbnail: "./exp3.svg",
   },
 ];
 

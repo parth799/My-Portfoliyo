@@ -7,50 +7,47 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-slate-400">approach</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
        <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Planning & Architecture"
+          icon={<AceternityIcon order="01" />}
+          des="I start by understanding requirements and designing scalable solutions. 
+          Collaborating with teams to define architecture, data models, 
+          and technical specifications that align with project goals."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-slate-800 rounded-3xl overflow-hidden"
+            colors={[[71, 85, 105], [100, 116, 139]]}
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Development & Collaboration"
+          icon={<AceternityIcon order="02" />}
+          des="Building features with clean, maintainable code while working closely
+          with cross-functional teams. Regular code reviews and continuous
+          integration ensure quality throughout development."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
-            colors={[
-              [255, 166, 158],
-              [221, 255, 247],
-            ]}
+            containerClassName="bg-slate-700 rounded-3xl overflow-hidden"
+            colors={[[100, 116, 139], [148, 163, 184]]}
             dotSize={2}
           />
          </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Testing & Deployment"
+          icon={<AceternityIcon order="03" />}
+          des="Thorough testing and optimization before deployment. I ensure
+          applications are performant, secure, and maintainable for
+          long-term success and team scalability."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-slate-600 rounded-3xl overflow-hidden"
+            colors={[[148, 163, 184], [203, 213, 225]]}
           />
         </Card>
       </div>
@@ -135,11 +132,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#cbd5e1_0%,#475569_50%,#cbd5e1_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-slate-300 backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
