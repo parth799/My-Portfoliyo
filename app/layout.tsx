@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Parth Desai - Full-Stack Developer | Portfolio",
-  description: "Full Stack Software Developer with 2+ years of experience in JavaScript, TypeScript, Node.js, React.js, Next.js, and Express.js. Specializing in scalable web applications and cross-functional team leadership.",
+  description: "Full Stack Software Developer with 3+ years of experience in JavaScript, TypeScript, Node.js, React.js, Next.js, and Express.js. Specializing in scalable web applications and cross-functional team leadership.",
 };
 
 export default function RootLayout({

@@ -28,7 +28,7 @@ const Hero = ({}: Props) => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-center text-slate-300 max-w-80">
-            Full-Stack Developer | 2+ Years Experience
+            Full-Stack Developer | 3+ Years Experience
           </p>
 
           <TextGenerateEffect
@@ -41,7 +41,7 @@ const Hero = ({}: Props) => {
           </p>
 
           <p className="text-center md:tracking-wider mb-6 text-sm md:text-base lg:text-lg max-w-2xl opacity-90">
-            Full Stack Software Developer with 2+ years of experience in designing, developing, and delivering scalable web applications. 
+            Full Stack Software Developer with 3+ years of experience in designing, developing, and delivering scalable web applications. 
             Skilled in both front-end and back-end development with a proven track record of leading cross-functional teams.
           </p>
 
